@@ -1,0 +1,51 @@
+<!-- header.html -->
+<style>
+    header {
+        background: linear-gradient(90deg, #f9c300, #ffdd55);
+        padding: 15px 40px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+    }
+
+    .logo {
+        font-size: 26px;
+        font-weight: bold;
+        color: #222;
+    }
+
+    nav a {
+        margin: 0 15px;
+        text-decoration: none;
+        color: #222;
+        font-weight: 500;
+        transition: color 0.3s;
+    }
+
+    nav a:hover {
+        color: #000;
+    }
+
+    .cart-btn {
+        background: #222;
+        color: #ffd000;
+        padding: 8px 15px;
+        border-radius: 6px;
+        text-decoration: none;
+        font-weight: bold;
+    }
+</style>
+
+<header>
+    <div class="logo">🛒 YellowStore</div>
+
+    <nav>
+        <a href="/">الرئيسية</a>
+        <a href="/store/">المنتجات</a>
+        <a href="/cart/">السلة</a>
+        <a href="/accounts/login/">تسجيل الدخول</a>
+    </nav>
+
+    <a href="/cart/" class="cart-btn">السلة</a>
+</header>
